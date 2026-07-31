@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/executable.dir/link.d CMakeFiles/executable.dir/FileWrite2.cpp.o CMakeFiles/executable.dir/Buffer.cpp.o -o executable
