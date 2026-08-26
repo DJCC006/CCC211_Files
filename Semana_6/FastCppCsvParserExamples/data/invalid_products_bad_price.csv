@@ -1,0 +1,3 @@
+sku,name,stock,price
+P100,Keyboard,12,29.99
+p999,Corrupted product,3,not-a-number
