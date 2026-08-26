@@ -1,0 +1,5 @@
+order_id,customer,city,notes
+1,"Smith, John","Springfield, IL","Leave package at the front door, please"
+2,Maria Gomez,"Austin, TX","Fragile, handle with care"
+3,"Ana ""Lopez""",Bogota,"Gift wrap requested, no invoice inside"
+4,Carlos Diaz,"Ciudad de Mexico, CDMX","Deliver after 6pm, call before arrival"

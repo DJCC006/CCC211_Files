@@ -29,7 +29,7 @@ int main(){
         std::cout<< std::format("\nTotal inventory value: $(:.2f)\n", inventory_value);
         std::cout<< "This is a sequential scan: every data row  is read once.\n";
     }catch(const std::exception& error){
-        std::cerr << std::format("Could not read {}: {}\n", file.string(), eror.what());
+        std::cerr << std::format("Could not read {}: {}\n", file.string(), error.what());
         return 1;
     }
 }

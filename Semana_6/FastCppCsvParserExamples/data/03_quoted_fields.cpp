@@ -30,7 +30,7 @@ int main(){
         }
 
         std::cout<< "Use a quote policy only when the file format requires it.\n";
-        cout::cout<< "It correctly handles commas embedded in quoted text.\n";
+        std::cout<< "It correctly handles commas embedded in quoted text.\n";
     }catch(const std::exception& error){
         std::cerr << std::format("Could not read {}: {}\n", file.string(), error.what());
         return 1;
