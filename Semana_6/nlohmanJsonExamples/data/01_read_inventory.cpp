@@ -5,7 +5,8 @@
 #include <stdexcept>
 #include <string>
 
-#include <nlohman/json.hpp>
+#include <nlohmann/json.hpp>
+
 
 //Establecimiento de alias /Type Alias Declaration
 //using json = nlohman::json;
@@ -39,10 +40,10 @@ int main(){
             const double price = product.at("price").get<double>();
 
             inventory_value += stock *price;
-            std::cout<< std::format ("{}\t{}\t(:.2f)\t{}\n", sku, stock, price, name);
+            std::cout<< std::format ("{}\t{}\t{:.2f}\t{}\n", sku, stock, price, name);
         }
 
-        std::cout<<std::format("\nTotal inventory value: $(:.2f)\n", inventory_value);
+        std::cout<<std::format("\nTotal inventory value: ${:.2f}\n", inventory_value);
         std::cout << "The complete JSON document is decoded in memory before traversal.\n";
     }catch(const std::exception& error){
         std::cerr << std::format("Could not read {}: {}\n", file.string(), error.what());

@@ -5,7 +5,7 @@
 #include <stdexcept>
 #include <string>
 
-#include <nlohman/json.hpp>
+#include <nlohmann/json.hpp>
 
 //Establecimiento de alias /Type Alias Declaration
 //using json = nlohman::json;

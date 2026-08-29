@@ -5,7 +5,7 @@
 #include <stdexcept>
 #include <string>
 
-#include <nlohman/json.hpp>
+#include <nlohmann/json.hpp>
 
 //Establecimiento de alias /Type Alias Declaration
 //using json = nlohman::json;
@@ -25,7 +25,7 @@ int main(){
         const nl::json snapshot = {
             {"generated_at", "2026-07-15T10:30:00Z"},
             {"page_size_bytes", 4096},
-            {"records", json::array({
+            {"records", nl::json::array({
                 {{"sku","P100"}, {"stock",12}, {"price", 29.99}},
                 {{"sku","P101"}, {"stock",24}, {"price", 14.50}},
                 {{"sku","P102"}, {"stock",5}, {"price", 199.95}}

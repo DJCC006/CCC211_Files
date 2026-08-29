@@ -6,7 +6,7 @@
 #include <map>
 #include <string>
 
-#include <nlohman/json.hpp>
+#include <nlohmann/json.hpp>
 
 //Establecimiento de alias /Type Alias Declaration
 //using json = nlohman::json;
@@ -47,7 +47,7 @@ int main(){
 
         std::cout << std::format("Sequentially processed {} records.\n", records_read);
         for(const auto& [account, balance] : balance_by_account){
-            std::cout << std::format("   {}: $(:.2f)\n", account, balance);
+            std::cout << std::format("   {}: ${:.2f}\n", account, balance);
         }
         std::cout<< "The input buffer is bounded, but the summary uses O(k) memory "
                     "for k distinct accounts.\n";
