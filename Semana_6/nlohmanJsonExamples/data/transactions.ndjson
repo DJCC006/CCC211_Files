@@ -1,0 +1,4 @@
+{"account":"A-100","date":"2026-07-01","type":"CREDIT","amount":1500.00}
+{"account":"A-100","date":"2026-07-02","type":"DEBIT","amount":230.75}
+{"account":"A-200","date":"2026-07-01","type":"CREDIT","amount":820.00}
+{"account":"A-200","date":"2026-07-03","type":"DEBIT","amount":100.00}

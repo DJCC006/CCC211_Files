@@ -1,0 +1,9 @@
+{
+    "warehouse": "TGU-A",
+    "products": [
+        {"sku": "P100", "name":"Keyboard", "stock":12, "price":29.99},
+        {"sku": "P101", "name":"Mouse", "stock":24, "price":14.50},
+        {"sku": "P102", "name":"Monitor", "stock":5, "price":199.95},
+        {"sku": "P103", "name":"USB-C cable", "stock":0, "price":8.75}
+    ]
+}

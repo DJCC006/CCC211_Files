@@ -1,0 +1,5 @@
+{
+    "products" : [
+        {"sku": "P999", "stock": 3, "price": 12.50},
+    ]
+}

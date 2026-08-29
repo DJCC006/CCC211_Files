@@ -1,0 +1,29 @@
+{
+    "page_size_bytes":4096,
+    "warehouses":[
+        {
+            "code": "TGU-A",
+            "zones": [
+                {
+                    "name": "A1",
+                    "items": [
+                        {"sku": "P100", "shelf": "A1-03"},
+                        {"sku": "P102", "shelf": "A1-08"}
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "SPS-B",
+            "zones": [
+                {
+                    "name": "B1",
+                    "items": [
+                        {"sku": "P101", "shelf": "B2-01"},
+                        {"sku": "P103", "shelf": "B2-09"}
+                    ]
+                }
+            ]
+        }
+    ]
+}
